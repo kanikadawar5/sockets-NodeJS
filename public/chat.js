@@ -13,5 +13,4 @@ document.getElementById("send").addEventListener('click',function(){
 socket.on('chat',function(data){
     // document.getElementById("output").innerHTML += '<br><strong>'+data.handle+'</strong> : '+data.message+'    <strong> '+data.IP+'</strong>';
     document.getElementById("output").innerHTML += '<br><strong>'+data.handle+'</strong> : '+data.message;
-
 });
