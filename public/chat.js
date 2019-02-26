@@ -1,6 +1,6 @@
 let socket = io.connect('localhost:8023');
 
-var person = prompt("Please enter your name:", "harshits..");
+var person = prompt("Please enter your name:", "kanika..");
 //Handel Frontend request
 document.getElementById("send").addEventListener('click',function(){    
     socket.emit('chat',{
